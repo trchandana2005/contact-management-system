@@ -1,5 +1,5 @@
 package com.parking.dao;
-
+// test pipeline
 import com.parking.model.ParkingSlot;
 import java.util.*;
 
