@@ -1,4 +1,4 @@
-name: Smart Parking CI
+name: payment processing CI
 
 on:
   push:
