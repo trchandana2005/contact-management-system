@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/trchandana2005/contact-app'
+                git branch: 'main', url: 'https://github.com/trchandana2005/contact-app'
             }
         }
 
@@ -29,7 +29,7 @@ pipeline {
 
         stage('Run Container') {
             steps {
-                bat 'docker run -d -p 7071:8080 payment-app'
+                bat 'docker run -d -p 7072:8080 payment-app'
             }
         }
     }
